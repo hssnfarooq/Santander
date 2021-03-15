@@ -1,0 +1,254 @@
+html {
+    font-size: 62.5%; }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    box-sizing: inherit; 
+line-height: 1.5;}
+  
+  
+  
+  body {
+    box-sizing: border-box; 
+    font-family: 'Encode Sans Condensed', sans-serif;
+     }
+
+    .wrapper {
+        max-width: 100.6rem;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.3rem;
+    }
+    p {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .red {
+        color: #FF0000 !important;
+    }
+
+    .nav-right a {
+        margin-left: 2.5rem;
+        font-weight: 500;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .left-content {
+        width: 22%;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+   .heading-secondary {
+       font-size: 2.8rem;
+       color: #444444;
+       letter-spacing: 2px;
+   }
+
+   .number-letter {
+       width: 40px;
+       height: 35px;
+       
+       text-align: center;
+       
+       font-size: 2.2rem;
+       color: #ec0000;
+       border: 2px solid #ec0000;
+       background-color: #ffff;
+       margin-right: 2rem;
+       
+       border-radius: 50%;
+
+
+
+   }
+   .num-text {
+ width: 75%;
+       display: flex;
+       margin-bottom: 1.3rem;
+       
+   }
+   .text-left {
+       width: 80%;
+       font-size: 1.3rem;
+       color: #000000;
+       font-weight: 500;
+
+   }
+
+   .mar-bottom {
+       margin-bottom: 4rem;
+   }
+
+   .btn-secondary {
+       padding: 0.8rem 2.2rem;
+       
+       font-size: 1.5rem;
+       color: #ec0000;
+       border-radius: 5px;
+       box-shadow: 1px 1px 5px rgba(0, 0, 0,0.2);
+       margin-bottom: 4rem;
+   }
+
+   .right-content {
+       width: 22%;
+
+   }
+
+   .center-content {
+       width: 50%;
+       text-align: left;
+   }
+
+   .box {
+       width: 100%;
+       padding: 1.5rem;
+       box-shadow: 1px 1px 10px rgba(0, 0, 0,0.4);
+       margin-bottom: 2rem;
+   }
+   .box-heading {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-bottom: 5rem;
+
+   }
+   .box-heading .box-links a{
+       font-size: 1.6rem;
+       color: #137E84;
+       padding: 0px 8px;
+       font-weight: 500;
+
+   }
+
+   .box-heading .box-links a:last-child {
+       padding-right: 0;
+       
+   }
+   .bord {
+       
+       border-right: 1px solid #137E84;
+   }
+
+   form {
+       width: 80%;
+       margin: 0 auto;
+       text-align: left;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+
+   form label {
+       font-size: 1.7rem;
+       font-weight: 500;
+       margin-bottom: 1rem;
+   }
+   form .login {
+       width: 100%;
+       padding: 0.8rem;
+       border-radius: 5px;
+      
+       border: none;
+       border: 1px solid #d4d4d4;
+       margin-bottom: 1.5rem;
+   }
+   form .input1{
+       width: 100%;
+   }
+   .btn-primary {
+       width: 100%;
+       text-align: center;
+       color: #ffff;
+       outline: none;
+       border: none;
+    padding: 0.8rem 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0,0.2);
+       background-color: #ec0000;
+       margin-bottom: 2.5rem;
+
+   }
+   .btn-primary:hover {
+       cursor: pointer;
+       background-color:#c20505
+   }
+   form a {
+       text-decoration: underline;
+       color: #717277;
+       font-size: 1.4rem;
+       font-weight: 500;
+       margin-bottom: 1.5rem;
+   }
+   form p {
+       font-size: 1.4rem;
+       color: #3e4548;
+       margin-bottom: 1.5rem;
+       font-weight: 500;
+
+   }
+   .my-medium {
+       margin-bottom: 2rem;
+   }
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #3a3c41;
+    padding: 2rem 1rem;
+    
+}
+
+.footer .footer-items {
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+.white {
+    color: #ffff;
+}
+.footer .footer-items p {
+    color: #ffff;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.item-left {
+    width: 50%;
+    padding-right: 1rem;
+    border-right: 1px solid #ffff;
+}
+.item-right {
+    width: 50%;
+    padding-left:1rem ;
+}
+
+
+i {
+    color: #137E84;
+    margin-bottom: 1rem;
+}

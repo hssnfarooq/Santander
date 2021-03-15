@@ -1,0 +1,24 @@
+/* Validation */
+.form-control {
+    position: relative;
+  }
+  
+  .form-control small {
+    color: rgb(240, 38, 38);
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+    padding: 10px 0;
+  }
+  
+  .form-control.error input {
+    border-width: 2px;
+    border-color: rgb(240, 38, 38);
+  }
+  /* .form-control.success input {
+    border-color: rgb(15, 179, 15);
+  } */
+  
+  .form-control.error small {
+    display: block;
+  }
